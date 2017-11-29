@@ -1,0 +1,43 @@
+*.class
+*.iml
+*.orig
+.gradle
+build/
+.idea/
+gradle/
+**/node_modules
+**/jspm_packages
+**/npm-debug.log
+aleph-media-ui/dist/*
+**/bin
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+*.ipr
+*.iws
+*.ids
+
+# Settings para ScalaIde
+.DS_Store
+**.project
+**.settings
+**.classpath
+**/target
+.cache
+
+*.log
